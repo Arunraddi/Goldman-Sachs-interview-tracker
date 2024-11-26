@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#progress {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.easy {
+    background-color: #d4edda; /* Light green */
+}
+
+.medium {
+    background-color: #ffeeba; /* Light orange */
+}
+
+.hard {
+    background-color: #f8d7da; /* Light red */
+}
+
+.copyable {
+    cursor: pointer; /* Indicate that the number is clickable */
+    color: blue; /* Optional: Change color to indicate it's clickable */
+    text-decoration: underline; /* Optional: Underline to indicate it's clickable */
+}
